@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+	<head>
+		<meta charset="utf-8">
+		<title> Fgv </title>
+	</head>
+	<body>
+		<h1> Fgv </h1>
+		<input type="number" id="bekert" value="">
+		<script>
+			//var szam=promt(Szám);
+			var szam=5
+			var szam = prompt("Szám");
+			function dolgozat(feladat)
+			{
+			var megold=feladat*2;
+			return megold;
+			
+			}
+			document.write(szam+" duplája függvénnyel"+dolgozat(szam));
+		</script>
+		<p id="eredmeny">vége </p>
+	
+	</body>
+</html>
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		Szám: <input id="egy" type="text" size="12">
+		<input type="button" value="Dupla" onclick="var szam1 = document.getElementById('egy').value;
+		document.getElementById('egy').value = szam1 * 2;">	
